@@ -1,0 +1,528 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* for body background color  */
+body{
+    background-color: #090040;
+}
+
+
+/*...................... login page css........................... */
+
+
+/* ....................loginbox .......................*/
+
+.login-section{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(media/abstract-uv-ultraviolet-light-composition.jpg);
+    background-size: cover;
+}
+.loginpage{
+    /* background: transparent; */
+    /* background-image: linear-gradient(#ad5389,#3c1053); */
+    backdrop-filter: blur(2px);
+    border: none;
+    box-shadow: 0 0 10px white;
+    border-radius: 20px;
+    width: 30%;
+    height: 70%;
+    padding: 20px;
+    /* border: 3px solid white; */
+    color: white;
+    /* text-align: center; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.loginpage h1{
+    font-size: 60px;
+    text-shadow: 0 0 5px white;
+    margin: 10px;
+    letter-spacing: 2px;
+}
+
+.unamepass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#username,#password{
+ font-family: 'Times New Roman', Times, serif;;
+    color: white;
+    width: 300px;
+    height: 40px;
+    padding: 10px 10px 1px;
+    font-size: 20px;
+    /* border-radius: 10px; */
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+}
+
+
+.remforpass{
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.loginpage button{
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 15%;
+    padding: 5px;
+    margin-top: 40px;
+    font-size: 25px;
+    box-shadow: 0 0 5px lightblue;
+    /* font-weight: 600; */
+    /* letter-spacing: 2px; */
+}
+
+.loginpage a{
+    color: beige;
+    font-weight: 400;
+}
+
+
+/*................... navigation bar styling .........................*/
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 1200;
+}
+
+.navlink{
+    font-size: 15px;
+    display: flex;
+    gap: 25px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*.....................SECTION 1 .............................. */
+
+ /* . box 1 contain heading.  */
+.section1{
+    display: flex;
+    max-width: 1200px;
+    margin-top: 50px;
+    /* margin-left: 50px; */
+    margin: auto;
+}
+
+.section1box1{
+    /* border: 1px solid white; */
+    color: beige;
+    width: 60%;
+}
+
+.section1box1 h1{
+   font-size: 50px;
+   padding-top: 80px;
+   line-height: 1.1;
+}
+.section1box1 h4{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.section1box1 button{
+  height: 45px;
+  width: 200px;
+  color: white;
+  background-color: blue; 
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 25px;
+  /* padding-bottom: 5px; */
+}
+
+#sec1-leftarrow{
+    vertical-align: middle;
+    padding-bottom: 4px;
+    /* font-size: 50px; */
+}
+
+/* . box 2 contain image.  */
+
+.section1box2{
+    width: 40%;
+}
+
+.section1box2 img{
+    padding-left: 20px ;
+    padding-top: 20px;
+    margin: 0px;
+}
+
+#nme{
+    color: beige;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+}
+
+#sytt{
+    color: beige;
+    font-size: 20px;
+    text-align: center;    
+}
+
+
+/* . . . . . . . . . . section 2 styling . . . . . . . . . . . . . .*/
+.section2{
+    /* border: 2px solid white; */
+    background-image: linear-gradient(#273F4F);
+    display: flex;
+    justify-content: space-between;
+    /* max-width: auto; */
+    text-align: center;
+    font-size: 15px;
+    margin-top: 100px;
+    padding: 50px 10px;
+}
+
+.section2-box i{
+    color:#090040;
+    font-size: 60px;
+    text-shadow: 1px 2px 10px white;
+ 
+}
+.section2-box h1{
+    color: white;
+    font-size: 30px;
+}
+
+.section2-box p{
+    color: white;
+} 
+
+
+/* . . . . . . . . . .  . section3 for images  . . . . . . . . . . . . . . */
+.section3{
+    /* border: 2px solid white; */
+    background-image: linear-gradient(#3D74B6,#090040,#0D5EA6);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+   padding: 100px 50px;
+}
+
+
+/* . . . . . . . . . . . .section 4 for reviews . . . . . . . . . . .  */
+.section4{
+    /* border: 2px solid white; */
+    margin: auto;
+    text-align: center;
+    padding: 70px 200px;
+}
+.section4 h1{
+    color: beige;
+    font-size: 50px;
+    margin: 20px;
+}
+.section4 p{
+    color: beige;
+    font-size: 20px;
+}
+
+.section4-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 100px 5px;
+    /* background-image: radial-gradient(lightblue,blue); */
+}
+.section4-box-img{
+    height: 150px;
+    width: 200px;
+    color: white;
+}
+
+/* . . . . . . . . section5  styling  for membership plans . . . . . . . . . . . . .*/
+
+.section5{
+    color: black;
+    padding: 30px;
+    margin: auto;
+    /* height: 600px; */
+    /* background-image: linear-gradient(#320A6B,#065084); */background-color: black;
+    opacity: 0.8;
+}
+
+.section5 h1{
+    color: beige;
+    font-size: 55px;
+    padding-left: 50px;
+}
+
+.section5 p{
+    color: beige;
+    padding-left: 50px;
+    margin-bottom: 40px;
+}
+
+/* for 3 boxes */
+
+.sec5-box{
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: start;
+    text-align: center;
+    margin: 10px 40px;
+
+}
+
+.section5-box{
+    /* border: 2px solid black; */
+    /* background-image: linear-gradient(#00809D,#00809D); */
+    background-color: wheat;
+    border-radius: 15px;
+    height: 300px;
+    width: 400px;
+    font-size: 25px;
+    line-height: 1.8;
+}
+
+.section5-box-head{
+    font-size: 40px;
+    color: black;
+}
+/* .section-box h3{
+    padding-top: 20px;
+
+} */
+
+.section5 button{
+    height: 40px;
+    width: 300px;
+    color: white;
+    background-color: blue;
+    border-color: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/* section 6 styling */
+
+.section6{
+    /* border: 2px solid white; */
+    background-color: #00809D;
+    color: white;
+    text-align: center;
+    height: 300px;
+    padding-top: 70px ;
+}
+.section6 p{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+section #endbutton{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    /* border: 2px solid black; */
+}
+
+/* section7 for footer  */
+footer{
+    /* border: 2px solid white; */
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    letter-spacing: 2px;
+    height: 100px;
+    padding-top: 30px;
+    font-weight: 300;
+}
+
+
+.plansGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+
+
+
+
+/* ......................for mobile use .................. */
+
+
+@media screen and (max-width: 600px) 
+{
+    nav{
+        background-color: black;  
+        /* border: 2px solid black; */
+    }
+    nav h1{
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    .navlink{
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    nav a{
+        font-size: 10px;
+        margin: auto;
+        padding-right: 15px;
+    } 
+    
+    body{
+        background-color: red;
+    }
+    .section1{
+        flex-direction: column;
+        padding:  0 20px;
+    }
+    .section1box1{
+        /* border: 2px solid black; */
+        width: 100%;
+
+    }
+    .section1box2{
+        /* border: 2px solid black; */
+        width: 100%;
+        
+    }
+    .section1box1 h1{
+        font-size: 25px;
+    }
+    .section1box2 img{
+        width: 100%;
+    }
+    #nme{
+        font: size 30px;
+    }
+
+    .section2{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .section2-box2 p{
+    font-size: 10px;
+    }
+
+    .section3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section3 img{
+        width: 300px;
+        height: auto;
+    }
+
+    .section4{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+
+    .section4 p{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .section4-box{
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section5 h1{
+        position: relative;
+        right: 50px;
+        font-size: 28px;
+    }
+    .section5 p{
+        position: relative;
+        right: 50px;
+    }
+
+    .sec5-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section5-box{
+        width: 350px;
+        height: 250px;
+    }
+
+    .section5-box-head{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .sec5-box-info h5{
+        font-size: 20px;
+    }
+
+    .section5 button{
+        width: 200px;
+        height: 35px;
+    }
+
+    .section6{
+        height: 200px;
+        padding-top: 30px;
+    }
+    
+    .section6 p{
+        font-size: 18px;
+    }
+
+}
